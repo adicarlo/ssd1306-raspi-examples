@@ -8,7 +8,7 @@
 [target.armv7-unknown-linux-musleabihf]
 rustflags = [
   "-C", "linker=rust-lld",
-  "-Z", "linker-flavor=ld.lld",
+#  "-Z", "linker-flavor=ld.lld",
   "-Z", "thinlto=no",
 ]
 
